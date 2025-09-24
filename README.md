@@ -1,12 +1,58 @@
-# React + Vite
+# frontend-cdd-react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React Front-end for the Cardiovascular Disease Detection Application  
+A single-page application built with React & Vite, providing the UI layer for the Cardiovascular Disease Detection (CDD) system.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Getting Started](#getting-started)  
+  - [Prerequisites](#prerequisites)  
+  - [Installation](#installation)
+    
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Responsive user interface for detecting cardiovascular disease risk  
+- Form(s) or dashboard(s) for inputting patient data / metrics  
+- Integration-ready for connecting to back-end prediction API  
+- Live-reload / hot module replacement (HMR) during development via Vite  
+- Code linting using ESLint  
+- Styling via Tailwind CSS  
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Front-end framework | React |
+| Build tool / dev server | Vite |
+| Styling | Tailwind CSS |
+| Linting | ESLint |
+| Package manager | npm / yarn (depending on preference) |
+| HTML templating | Plain HTML (via `index.html`) |
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have:
+
+- Node.js (recommended version ≥ 14.x or latest LTS)  
+- npm (or yarn)  
+- [Optional] Access to the back-end API for prediction / data fetching  
+
+### Installation
+
+Clone the repo:
+
+```bash
+git clone https://github.com/kri-eng/frontend-cdd-react.git
+cd frontend-cdd-react
